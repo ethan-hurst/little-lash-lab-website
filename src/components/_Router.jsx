@@ -9,9 +9,9 @@ export default class _Router extends React.Component {
                 <Switch>
                     <Route exact path="/" Component={Home} />
                     <Route exact path="/home" Component={Home} />
-                    <Route exact path="/" Component={Price} />
-                    <Route exact path="/" Component={Contact} />
-                    <Route exact path="/" Component={Faq} />
+                    <Route exact path="/pricing" Component={Price} />
+                    <Route exact path="/contact" Component={Contact} />
+                    <Route exact path="/faq" Component={Faq} />
                     <Route Component={NotFound} />
                 </Switch>
             </Router>

@@ -5,11 +5,10 @@ import _NavBar from './components/_NavBar';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Working</h1>
-        <_Router />
-        <_NavBar />
-      </div>
+    <React.Fragment>
+      <_Router />
+      <_NavBar /> 
+    </React.Fragment>       
     );
   }
 }

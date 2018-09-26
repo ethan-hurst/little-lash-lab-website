@@ -1,4 +1,4 @@
-import './assets/scss/one-page-wonder.scss';
+import './assets/scss/one-page-wonder.scss'
 
 import React from 'react';
 import ReactDOM from 'react-dom';

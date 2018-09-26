@@ -1,11 +1,13 @@
 import React from 'react';
-
+import { _NavBar, _Footer, _Price } from '../components';
 export default class Price extends React.Component { 
     render() { 
         return ( 
-            <div className="Price">
-            
-            </div>
+            <React.Fragment>
+                <_NavBar />
+                <_Price />
+                <_Footer />
+            </React.Fragment>
         );
     }
 }

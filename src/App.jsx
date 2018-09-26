@@ -8,8 +8,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <_Router />
-        <_NavBar />
-        <_Footer />
       </React.Fragment>
     );
   }

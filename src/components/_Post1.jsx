@@ -1,15 +1,16 @@
 import React from 'react';
+import Img from '../assets/images/01.jpg'
 
-export default class _Post extends React.Component {
+export default class _Post1 extends React.Component {
     render() {
         return (
-            <div className="Post">
+            <div className="Post1">
                 <section>
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-lg-2">
                                 <div class="p-5">
-                                    <img class="img-fluid rounded-circle" src="img/01.jpg" alt="" />
+                                    <img class="img-fluid rounded-circle" src={Img} alt="" />
                                 </div>
                             </div>
                             <div class="col-lg-6 order-lg-1">

@@ -25,12 +25,12 @@ export default class _NavBar extends React.Component {
     }
     render() {
         return (
-            <Navbar dark expand="lg" custom fixed="top">
+            <Navbar className="navbar-custom "dark="true" expand="lg" fixed="top">
                 <Container>
-                    <NavbarBrand href="/" className="mr-auto">The Little Lash Lab</NavbarBrand>
+                    <NavbarBrand href="/" className="">The Little Lash Lab</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>
-                        <Nav className="mr-auto" navbar>
+                        <Nav className="" navbar>
                             <NavItem>
                                 <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Pricing</NavLink>
                             </NavItem>
@@ -44,6 +44,25 @@ export default class _NavBar extends React.Component {
                     </Collapse>
                 </Container>
             </Navbar>
+
+        //     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        //     <div class="container">
+        //       <a class="navbar-brand" href="#">Start Bootstrap</a>
+        //       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        //         <span class="navbar-toggler-icon"></span>
+        //       </button>
+        //       <div class="collapse navbar-collapse" id="navbarResponsive">
+        //         <ul class="navbar-nav ml-auto">
+        //           <li class="nav-item">
+        //             <a class="nav-link" href="#">Sign Up</a>
+        //           </li>
+        //           <li class="nav-item">
+        //             <a class="nav-link" href="#">Log In</a>
+        //           </li>
+        //         </ul>
+        //       </div>
+        //     </div>
+        //   </nav>
         );
     }
 }

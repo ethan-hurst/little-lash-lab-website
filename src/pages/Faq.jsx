@@ -7,11 +7,13 @@ export default class Faq extends React.Component {
         return (
             <React.Fragment>
                 <_NavBar />
-                <_Header />
+                <_Header 
+                    headerProp="The Little Lash Lab"
+                    subheadingProp="Got Some Questions?"
+                />
                 <_Faq />
                 <_Footer />
             </React.Fragment>
         );
     }
 }
-

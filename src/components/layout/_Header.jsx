@@ -7,9 +7,9 @@ export default class _Header extends React.Component {
                 <header class="masthead text-center text-white">
                     <div class="masthead-content">
                         <div class="container">
-                            <h1 class="masthead-heading mb-0">The Little Lash Lab</h1>
-                            <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                            <a href="/faq" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+                            <h1 class="masthead-heading mb-0">{this.props.headerProp}</h1>
+                            <h2 class="masthead-subheading mb-0">{this.props.subheadingProp}</h2>
+                            <a href="/faq" class="btn btn-primary btn-xl rounded-pill mt-5">{this.props.buttonProp}</a>
                         </div>
                     </div>
                     <div class="bg-circle-1 bg-circle"></div>
@@ -20,4 +20,10 @@ export default class _Header extends React.Component {
             </div>
         );
     }
+}
+
+_Header.defaultProps = { 
+    headerProp: "The Little Lash Lab",
+    subheadingProp: "Will Rock Your Socks Off",
+    buttonProp: "Learn More"
 }

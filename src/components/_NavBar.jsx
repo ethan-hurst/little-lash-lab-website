@@ -1,44 +1,50 @@
 import React from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container } from 'reactstrap';
 
 export default class _NavBar extends React.Component {
     constructor(props) {
         super(props);
 
-        this.toggle = this.toggle.bind(this);
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.closeNavbar = this.closeNavbar.bind(this);
         this.state = {
-            isOpen: false
+            collapsed: true
         };
     }
-    toggle() {
+
+    toggleNavbar() {
         this.setState({
-            isOpen: !this.state.isOpen
+            collapsed: !this.state.collapsed
         });
+    }
+
+    closeNavbar() {
+        if (this.state.collapsed !== true) {
+            this.toggleNavbar();
+        }
     }
     render() {
         return (
-            <div className  ="NavBar">
-                <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-                    <div className="container">
-                        <a className="navbar-brand" href="/">The Little Lash Lab</a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarResponsive">
-                            <ul className="navbar-nav ml-auto">
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/pricing">Pricing</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/contact">Contact</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/faq">FAQ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+            <Navbar dark expand="lg" custom fixed="top">
+                <Container>
+                    <NavbarBrand href="/" className="mr-auto">The Little Lash Lab</NavbarBrand>
+                    <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+                    <Collapse isOpen={!this.state.collapsed} navbar>
+                        <Nav className="mr-auto" navbar>
+                            <NavItem>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Pricing</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/contact">Contact</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/faq">Faq</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Container>
+            </Navbar>
         );
     }
 }
+

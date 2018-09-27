@@ -14,9 +14,3 @@ export default class Home extends React.Component {
         );
     }
 }
-
-_Header.defaultProps = { 
-    headerProp: "The Little Lash Lab",
-    subheadingProp: "Will Rock Your Socks Off",
-    buttonProp: "Learn More"
-}

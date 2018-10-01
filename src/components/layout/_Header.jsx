@@ -9,7 +9,9 @@ export default class _Header extends React.Component {
                     <div class="masthead-content">
                         <div class="container">
                         <div>
+                            {/* eslint-disable  */}
                         <img id="header-logo" src={Img} />
+                        {/* eslint-enable */}
                     </div>
                             {/* <h1 class="masthead-heading mb-0">{this.props.headerProp}</h1> */}
                             <h2 class="masthead-subheading mb-0">{this.props.subheadingProp}</h2>
@@ -21,6 +23,7 @@ export default class _Header extends React.Component {
         );
     }
 }
+
 
 _Header.defaultProps = { 
     headerProp: "",

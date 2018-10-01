@@ -6,7 +6,9 @@ export default class Contact extends React.Component {
     render () { 
         return ( 
             <React.Fragment>
+                {/* eslint-disable */}
                 <_Contact />
+                {/* eslint-enable */}
             </React.Fragment>
         );
     }

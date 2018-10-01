@@ -5,6 +5,7 @@ export default class _Contact extends React.Component {
     render() {
         return (
             <React.Fragment>
+                {/* eslint-disable */}
                 <_NavBar />
                 <_Header
                     headerProp="The Little Lash Lab"
@@ -13,6 +14,7 @@ export default class _Contact extends React.Component {
                 />
                 {/* @TODO Create Contact form and Google Address*/}
                 <_Footer />
+                {/* eslint-enable */}
             </React.Fragment>
         );
     }

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { _Router, _NavBar, _Footer } from './components';
-import { Home, Contact, Faq, NotFound, Price } from './pages';
+import { _Router } from './components';
 
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
+        {/* eslint-disable */}
         <_Router />
+        {/* eslint-enable */}
       </React.Fragment>
     );
   }

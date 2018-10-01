@@ -5,6 +5,7 @@ export default class _Faq extends React.Component {
     render() {
         return (
             <React.Fragment>
+                {/* eslint-disable */}
                 <_NavBar />
                 <_Header
                     headerProp="The Little Lash Lab"
@@ -15,6 +16,7 @@ export default class _Faq extends React.Component {
                     paragraph="Keep reading to get some answers!"
                 />
                 <_Footer />
+                {/* eslint-enable */}
             </React.Fragment>
         );
     }

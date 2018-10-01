@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from '../assets/images/01.jpg'
 
-export default class _Post1 extends React.Component {
+export default class _Post extends React.Component {
     render() {
         return (
             <div className="Post1">
@@ -27,8 +27,9 @@ export default class _Post1 extends React.Component {
     }
 }
 
-_Post1.defaultProps = {
-    header: "For those about to rock...",
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.",
-    img: "import Img from '../assets/images/01.jpg'"
+_Post.defaultProps = {
+    header: "",
+    paragraph: "",
+    img: Img
+
 }

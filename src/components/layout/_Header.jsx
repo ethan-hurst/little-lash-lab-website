@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from '../../assets/images/logo/Regular_Logo/Main Logo Transparent Background.png';
 
 export default class _Header extends React.Component {
     render() {
@@ -7,15 +8,14 @@ export default class _Header extends React.Component {
                 <header class="masthead text-center text-white">
                     <div class="masthead-content">
                         <div class="container">
-                            <h1 class="masthead-heading mb-0">{this.props.headerProp}</h1>
-                            <h2 class="masthead-subheading mb-0">{this.props.subheadingProp}</h2>
-                            <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">{this.props.buttonProp}</a>
-                        </div>
+                        <div>
+                        <img id="header-logo" src={Img} />
                     </div>
-                    <div class="bg-circle-1 bg-circle"></div>
-                    <div class="bg-circle-2 bg-circle"></div>
-                    <div class="bg-circle-3 bg-circle"></div>
-                    <div class="bg-circle-4 bg-circle"></div>
+                            {/* <h1 class="masthead-heading mb-0">{this.props.headerProp}</h1> */}
+                            <h2 class="masthead-subheading mb-0">{this.props.subheadingProp}</h2>
+                            {/* <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">{this.props.buttonProp}</a> */}
+                        </div>
+                    </div>                    
                 </header>
             </div>
         );
@@ -23,7 +23,7 @@ export default class _Header extends React.Component {
 }
 
 _Header.defaultProps = { 
-    headerProp: "The Little Lash Lab",
-    subheadingProp: "Will Rock Your Socks Off",
+    headerProp: "",
+    subheadingProp: "Subheading Here",
     buttonProp: null
 }

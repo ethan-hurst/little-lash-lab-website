@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../assets/images/01.jpg'
+import Img from '../assets/images/03.jpg'
 
 export default class _Post extends React.Component {
     render() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { _Footer, _Faq, _NavBar, _Header } from '../components'
+import { _Footer, _Faq, _NavBar, _Header, _Post } from '../components'
 
 
 export default class Faq extends React.Component {
@@ -10,6 +10,10 @@ export default class Faq extends React.Component {
                 <_Header 
                     headerProp="The Little Lash Lab"
                     subheadingProp="Got Some Questions?"
+                />
+                <_Post 
+                    header="Here's something interesting"
+                    paragraph="Keep reading to get some answers!"
                 />
                 <_Faq />
                 <_Footer />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Img from '../assets/images/03.jpg'
 
 export default class _Post extends React.Component {
     render() {
@@ -30,6 +29,6 @@ export default class _Post extends React.Component {
 _Post.defaultProps = {
     header: "",
     paragraph: "",
-    img: Img
+    img: undefined
 
 }

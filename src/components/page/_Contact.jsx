@@ -13,9 +13,9 @@ export default class _Contact extends React.Component {
                     buttonProp="Book Now!"
                 />
                 <_Post 
-                    header=""
-                    paragraph=""
-                    img="null"
+                    header="Lets Talk!"
+                    paragraph="If you'd like to get some more information on what services we offer. Or simply wanna see how it all works, please send us an email or call!"
+                    img=""
                 />
                 {/* @TODO Create Contact form and Google Address*/}
                 <_Footer />

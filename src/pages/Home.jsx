@@ -1,10 +1,9 @@
 import React from 'react';
-import { _NavBar, _Header, _Post } from '../components'; 
+import { _NavBar, _Header, _Post } from '../components';
 
-
-import Img1 from '../assets/images/01.jpg'
-import Img2 from '../assets/images/02.jpg'
-import Img3 from '../assets/images/03.jpg'
+import Img1 from '../assets/images/logo/Unsplash_pics/Natural Lashes.jpg';
+import Img2 from '../assets/images/logo/Unsplash_pics/Lights & Lashes.jpg';
+import Img3 from '../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg';
 
 export default class Home extends React.Component {
     render() {
@@ -16,7 +15,7 @@ export default class Home extends React.Component {
                 <_Post
                     header="For those about to rock..."
                     paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
-                    img={Img1}
+                    img={Img3}
                 />
                 <_Post 
                     header="We salute you!"
@@ -26,7 +25,7 @@ export default class Home extends React.Component {
                 <_Post 
                     header="This should change!"
                     paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
-                    img={Img3}
+                    img={Img1}
                 />
                 {/* eslint-enable */}
             </React.Fragment>

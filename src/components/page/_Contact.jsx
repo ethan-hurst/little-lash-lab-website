@@ -1,6 +1,7 @@
 import React from 'react';
-import { _NavBar, _Footer, _Header, _Post } from '../../components';
+import { _NavBar, _Footer, _Header, _Post, ContactIcons } from '../../components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Img from '../../assets/images/alexander-andrews-633927-unsplash.jpg'
 export default class _Contact extends React.Component {
     render() {
         return (
@@ -14,10 +15,10 @@ export default class _Contact extends React.Component {
                 />
                 <_Post 
                     header="Lets Talk!"
-                    paragraph="If you'd like to get some more information on what services we offer. Or simply wanna see how it all works, please send us an email or call!"
-                    img=""
+                    paragraph="Simply Click on any of the icons below to Get in touch!"
+                    img={Img}
                 />
-                {/* @TODO Create Contact form and Google Address*/}
+                <ContactIcons />
                 <_Footer />
                 {/* eslint-enable */}
             </React.Fragment>

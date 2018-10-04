@@ -7,3 +7,4 @@ export { default as PriceList } from './PriceList';
 export { default as _Post } from './_Post';
 export { default as _Router } from './_Router';
 export { default as _Price } from './page/_Price';
+export { default as ContactIcons } from "./Contact-Icons";

@@ -10,13 +10,26 @@
   padding-top: 20px;
 }
 
+.list-unstyled.list-hours.mb5 { 
+  margin-bottom: 10px !important;
+}
+
+ul.list-unstyled {
+  border-bottom: 1px solid black ;
+  li { 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .subheading{ 
+    font-size: 12px;
+  }
+}
+
 .list-hours {
   font-size: 0.9rem;
   .list-hours-item {
-    border-bottom: 1px solid black ;
-    padding-bottom: .25rem;
-    margin-bottom: 1rem;
-    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-style: normal;
     &.today {
       font-weight: bold;
       color: $primary;
@@ -37,7 +50,7 @@
 .mb-0 { 
   padding-bottom: 20px;
 }
-li { 
-  padding-left: 10px;
-  padding-right: 10px;
+
+.asterix { 
+  margin-bottom: 20px;
 }

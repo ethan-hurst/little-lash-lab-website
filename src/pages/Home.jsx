@@ -1,9 +1,9 @@
 import React from 'react';
 import { _NavBar, _Header, _Post } from '../components';
 
-import Img1 from '../assets/images/logo/Unsplash_pics/Natural Lashes.jpg';
-import Img2 from '../assets/images/logo/Unsplash_pics/Lights & Lashes.jpg';
-import Img3 from '../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg';
+import Img1 from '../assets/images/Unsplash_pics/Natural Lashes.jpg';
+import Img2 from '../assets/images/Unsplash_pics/Lights & Lashes.jpg';
+import Img3 from '../assets/images/Unsplash_pics/B & W Wedding Image.jpg';
 
 export default class Home extends React.Component {
     render() {

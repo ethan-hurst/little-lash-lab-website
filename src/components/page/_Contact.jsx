@@ -1,7 +1,7 @@
 import React from 'react';
 import { _NavBar, _Footer, _Header, _Post, ContactIcons } from '../../components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Img from '../../assets/images/alexander-andrews-633927-unsplash.jpg'
+import Img from '../../assets/images/alexander-andrews-633927-unsplash.jpg';
+
 export default class _Contact extends React.Component {
     render() {
         return (

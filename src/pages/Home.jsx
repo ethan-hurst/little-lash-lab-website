@@ -13,18 +13,18 @@ export default class Home extends React.Component {
                 <_NavBar />
                 <_Header />
                 <_Post
-                    header="For those about to rock some lashes..."
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
+                    header="For those about to rock new lashes..."
+                    paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes. "
                     img={Img1}
                 />
                 <_Post 
-                    header="We salute you!"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
+                    header="Ready for a nap?"
+                    paragraph="Because chances are you will - snuggled up under your minky blanket, with the subtle yet deeply relaxing smell of scented candles and essential oils. You’ve already had your chocolate kiss that was waiting for you on your memory-foam pillow. Now with your eyes closed and chill-out music playing, prepare from some zzz’s while we transform your eyes."
                     img={Img2}
                 />
                 <_Post 
-                    header="This should change!"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
+                    header="For bookings"
+                    paragraph="Call us on 027 624 8778 or send us a message on Facebook or Instagram."
                     img={Img3}
                 />
                 {/* eslint-enable */}

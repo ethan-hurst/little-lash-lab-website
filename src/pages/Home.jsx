@@ -2,8 +2,8 @@ import React from 'react';
 import { _NavBar, _Header, _Post } from '../components';
 
 import Img1 from '../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg';
-import Img2 from '../assets/images/logo/Unsplash_pics/Lights & Lashes.jpg';
-import Img3 from '../assets/images/logo/Unsplash_pics/Natural Lashes.jpg';
+import Img2 from '../assets/images/logo/Unsplash_pics/Img12.jpg';
+import Img3 from '../assets/images/logo/Unsplash_pics/Img13.jpg';
 
 export default class Home extends React.Component {
     render() {
@@ -14,7 +14,11 @@ export default class Home extends React.Component {
                 <_Header />
                 <_Post
                     header="For those about to rock new lashes..."
+<<<<<<< HEAD
                     paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes. "
+=======
+                    paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes."
+>>>>>>> content
                     img={Img1}
                 />
                 <_Post 

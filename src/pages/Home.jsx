@@ -1,9 +1,15 @@
 import React from 'react';
 import { _NavBar, _Header, _Post } from '../components';
 
+<<<<<<< HEAD
 import Img1 from '../assets/images/Unsplash_pics/Natural Lashes.jpg';
 import Img2 from '../assets/images/Unsplash_pics/Lights & Lashes.jpg';
 import Img3 from '../assets/images/Unsplash_pics/B & W Wedding Image.jpg';
+=======
+import Img1 from '../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg';
+import Img2 from '../assets/images/logo/Unsplash_pics/Img12.jpg';
+import Img3 from '../assets/images/logo/Unsplash_pics/Img13.jpg';
+>>>>>>> pr/1
 
 export default class Home extends React.Component {
     render() {
@@ -13,19 +19,19 @@ export default class Home extends React.Component {
                 <_NavBar />
                 <_Header />
                 <_Post
-                    header="For those about to rock..."
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
-                    img={Img3}
+                    header="For those about to rock new lashes..."
+                    paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes. "
+                    img={Img1}
                 />
                 <_Post 
-                    header="We salute you!"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
+                    header="Ready for a nap?"
+                    paragraph="Because chances are you will - snuggled up under your minky blanket, with the subtle yet deeply relaxing smell of scented candles and essential oils. You’ve already had your chocolate kiss that was waiting for you on your memory-foam pillow. Now with your eyes closed and chill-out music playing, prepare from some zzz’s while we transform your eyes."
                     img={Img2}
                 />
                 <_Post 
-                    header="This should change!"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
-                    img={Img1}
+                    header="For bookings"
+                    paragraph="Call us on 027 624 8778 or send us a message on Facebook or Instagram."
+                    img={Img3}
                 />
                 {/* eslint-enable */}
             </React.Fragment>

@@ -14,7 +14,7 @@ export default class _Post extends React.Component {
                             </div>
                             <div class="col-lg-6 order-lg-1">
                                 <div class="p-5">
-                                    <h2 class="display-4">{this.props.header}</h2>
+                                    <h3 class="display-4">{this.props.header}</h3>
                                     <p>{this.props.paragraph}</p>
                                 </div>
                             </div>

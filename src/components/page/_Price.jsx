@@ -1,7 +1,6 @@
 import React from 'react';
 import { _NavBar, _Footer, _Header, PriceList } from '../../components';
 
-
 export default class _Price extends React.Component { 
     render () { 
         return ( 

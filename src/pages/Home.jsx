@@ -14,11 +14,7 @@ export default class Home extends React.Component {
                 <_Header />
                 <_Post
                     header="For those about to rock new lashes..."
-<<<<<<< HEAD
-                    paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes. "
-=======
                     paragraph="You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes."
->>>>>>> content
                     img={Img1}
                 />
                 <_Post 

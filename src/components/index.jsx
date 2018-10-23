@@ -1,4 +1,5 @@
 export { default as _Contact } from './page/_Contact';
+export { default as _Home } from './page/_Home';
 export { default as _Faq } from './page/_Faq';
 export { default as _Footer } from './layout/_Footer';
 export { default as _Header } from './layout/_Header';

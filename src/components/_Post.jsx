@@ -9,7 +9,7 @@ export default class _Post extends React.Component {
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-lg-2">
                                 <div class="p-5">
-                                    <img class="img-fluid rounded-circle" src={this.props.img} alt="" />
+                                    <img class="img-fluid rounded-circle" src={this.props.img} alt={this.props.alt} />
                                 </div>
                             </div>
                             <div class="col-lg-6 order-lg-1">
@@ -29,6 +29,7 @@ export default class _Post extends React.Component {
 _Post.defaultProps = {
     header: "",
     paragraph: "",
-    img: undefined
+    img: undefined,
+    alt: ""
 
 }

@@ -17,6 +17,7 @@ export default class _Contact extends React.Component {
                     header="Lets Talk!"
                     paragraph="Simply Click on any of the icons below to Get in touch!"
                     img={Img}
+                    alt="call for your lashing"
                 />
                 <ContactIcons />
                 <_Footer />

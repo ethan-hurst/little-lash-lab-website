@@ -1,5 +1,5 @@
 import React from "react";
-import { _NavBar, _Header, _Post } from "../";
+import { _NavBar, _Header, _Post, _Footer } from "../";
 
 import Img1 from "../../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg";
 import Img2 from "../../assets/images/logo/Unsplash_pics/Img12.jpg";
@@ -30,6 +30,7 @@ export default class _Home extends React.Component {
           img={Img3}
           alt="contact us for your lashing today!"
         />
+        <_Footer />
         {/* eslint-enable */}
       </React.Fragment>
     );

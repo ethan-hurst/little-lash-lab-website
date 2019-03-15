@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<div
+  className="Footer"
+>
+  <footer
+    class="py-5 bg-black"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="m-0 text-center text-white small"
+      >
+        Copyright © The Little Lash Lab 2019
+      </p>
+      <p
+        class="m-0 text-center text-white small"
+      >
+        Copyright © Hursty By Design Ltd 2019
+      </p>
+    </div>
+  </footer>
+</div>
+`;

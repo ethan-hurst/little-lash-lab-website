@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+Array [
+  <nav
+    className="navbar-custom  navbar navbar-expand-lg navbar-dark fixed-top"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        The Little Lash Lab
+      </a>
+      <button
+        className="mr-2 navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        style={Object {}}
+      >
+        <ul
+          className="navbar-nav"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-NavLink nav-link"
+              href="/pricing"
+              onClick={[Function]}
+            >
+              Pricing
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-NavLink nav-link"
+              href="/contact"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-NavLink nav-link"
+              href="/faq"
+              onClick={[Function]}
+            >
+              Faq
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="Header"
+  >
+    <header
+      class="masthead text-center text-white"
+    >
+      <div
+        class="masthead-content"
+      >
+        <div
+          class="container"
+        >
+          <div>
+            <img
+              id="header-logo"
+              src="Main Logo Transparent Background.png"
+            />
+          </div>
+          <h2
+            class="masthead-subheading mb-0"
+          >
+            Subheading Here
+          </h2>
+        </div>
+      </div>
+    </header>
+  </div>,
+  <div
+    className="Post1"
+  >
+    <section>
+      <div
+        class="container"
+      >
+        <div
+          class="row align-items-center"
+        >
+          <div
+            class="col-lg-6 order-lg-2"
+          >
+            <div
+              class="p-5"
+            >
+              <img
+                alt="lashing for weddings"
+                class="img-fluid rounded-circle"
+                src="B & W Wedding Image.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-lg-1"
+          >
+            <div
+              class="p-5"
+            >
+              <h3
+                class="display-4"
+              >
+                For those about to rock new lashes...
+              </h3>
+              <p>
+                You’ve come to the right place. At The Little Lash Lab we are committed to providing you with stunning classic eyelash extensions, carefully applied so as to preserve the integrity of your natural lashes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    className="Post1"
+  >
+    <section>
+      <div
+        class="container"
+      >
+        <div
+          class="row align-items-center"
+        >
+          <div
+            class="col-lg-6 order-lg-2"
+          >
+            <div
+              class="p-5"
+            >
+              <img
+                alt="lashing will be so relaxing you're going to sleep"
+                class="img-fluid rounded-circle"
+                src="Img12.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-lg-1"
+          >
+            <div
+              class="p-5"
+            >
+              <h3
+                class="display-4"
+              >
+                Ready for a nap?
+              </h3>
+              <p>
+                Because chances are you will - snuggled up under your minky blanket, with the subtle yet deeply relaxing smell of scented candles and essential oils. You’ve already had your chocolate kiss that was waiting for you on your memory-foam pillow. Now with your eyes closed and chill-out music playing, prepare from some zzz’s while we transform your eyes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    className="Post1"
+  >
+    <section>
+      <div
+        class="container"
+      >
+        <div
+          class="row align-items-center"
+        >
+          <div
+            class="col-lg-6 order-lg-2"
+          >
+            <div
+              class="p-5"
+            >
+              <img
+                alt="contact us for your lashing today!"
+                class="img-fluid rounded-circle"
+                src="Img13.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-lg-1"
+          >
+            <div
+              class="p-5"
+            >
+              <h3
+                class="display-4"
+              >
+                For bookings
+              </h3>
+              <p>
+                Call us on 027 624 8778 or send us a message on Facebook or Instagram.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    className="Footer"
+  >
+    <footer
+      class="py-5 bg-black"
+    >
+      <div
+        class="container"
+      >
+        <p
+          class="m-0 text-center text-white small"
+        >
+          Copyright © The Little Lash Lab 2019
+        </p>
+        <p
+          class="m-0 text-center text-white small"
+        >
+          Copyright © Hursty By Design Ltd 2019
+        </p>
+      </div>
+    </footer>
+  </div>,
+]
+`;

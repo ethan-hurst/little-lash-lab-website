@@ -15,61 +15,28 @@ export default class PriceList extends React.Component {
                                     </h2>
                                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                         <li class="list-unstyled-item list-hours-item d-flex">
-                                            Lip Mask
-                                            <span class="ml-auto">$5</span>
+                                            Regular Set Classic Eyelash Extensions
+                                            <span class="ml-auto">$70</span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                45 minutes
+                                                1 hour 30 minutes
                                             </span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                <em>With any treatment</em>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            Infills 3 Weeks - Regular Set
-                                            <span class="ml-auto">$65</span>
-                                        </li>
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            <span className="subheading">
-                                                1 Hour 35 minutes
+                                                <em>75-90 lashes per eye. (Duration can vary slightly)</em>
                                             </span>
                                         </li>
                                     </ul>
                                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                         <li class="list-unstyled-item list-hours-item d-flex">
-                                            Infills 2 Weeks - Regular Set
-                                            <span class="ml-auto">$45</span>
+                                            Glam Set Classic Eyelash Extensions
+                                            <span class="ml-auto">$85</span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                1 Hour
-                                            </span>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            Infills 2 Weeks - Power Set
-                                            <span class="ml-auto">$65</span>
-                                        </li>
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            <span className="subheading">
-                                                1 Hours 30 minutes
-                                            </span>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            Power Set Classic Extensions
-                                            <span class="ml-auto">$95</span>
-                                        </li>
-                                        <li class="list-unstyled-item list-hours-item d-flex">
-                                            <span className="subheading">
-                                                2 Hours 30 minutes
+                                                2 hours
                                             </span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
@@ -80,12 +47,39 @@ export default class PriceList extends React.Component {
                                     </ul>
                                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                         <li class="list-unstyled-item list-hours-item d-flex">
-                                            Infills 3 Weeks - Power Set
-                                            <span class="ml-auto">$75</span>
+                                            Infills Classic Small
+                                            <span class="ml-auto">$50</span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                2 Hours
+                                                1 hour
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Infills Classic Medium
+                                            <span class="ml-auto">$65</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                1 hour 30 minutes
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Lash Extensions Patch Test
+                                            <span class="ml-auto">Free</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                30 minutes
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>Book at least 24 hours before your lash extensions appointment. If you choose not to book a patch test we require you to sign a waiver form.</em>
                                             </span>
                                         </li>
                                     </ul>
@@ -107,25 +101,105 @@ export default class PriceList extends React.Component {
                                     </ul>
                                     <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                                         <li class="list-unstyled-item list-hours-item d-flex">
-                                            Regular Set Classic Extensions
+                                            Lash Lift and Tint
                                             <span class="ml-auto">$80</span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                1 Hours 30 minutes
+                                                1 hour
                                             </span>
                                         </li>
                                         <li class="list-unstyled-item list-hours-item d-flex">
                                             <span className="subheading">
-                                                <em>75-90 lashes per eye. (Duration can vary slightly)</em>
+                                                <em>Please allow an extra 15 minutes if this is your initial appointment.</em>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Lash Lift and Tint Patch Test
+                                            <span class="ml-auto">$10</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                30 minutes
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>Book at least 48 hours before your lash lift appointment. If you choose not to book a patch test we require you to sign a waiver form.</em>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Henna Brows Initial Appointment
+                                            <span class="ml-auto">$60</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                1 hour
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>Service includes brow shaping, henna tint and brow tweezing.</em>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Henna Brows Subsequent Appointments
+                                            <span class="ml-auto">$40</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                30 minutes
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>Service includes brow shaping, henna tint and brow tweezing.</em>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Henna Brows Patch Test
+                                            <span class="ml-auto">Free</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                15 minutes
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>Book at least 48 hours before your henna brows appointment. If you choose not to book a patch test we require you to sign a waiver form.</em>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            Lip Mask
+                                            <span class="ml-auto">$5</span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                45 minutes
+                                            </span>
+                                        </li>
+                                        <li class="list-unstyled-item list-hours-item d-flex">
+                                            <span className="subheading">
+                                                <em>With any treatment</em>
                                             </span>
                                         </li>
                                     </ul>
                                     <p class="address mb-5">
                                         <em>
-                                            <strong>13 McLachlan Way</strong>
+                                            <strong>10 Stile Place</strong>
                                             <br />
-                                            Pokeno, Auckland
+                                            Pukekohe, Auckland
                                             </em>
                                     </p>
                                     <p class="mb-0">

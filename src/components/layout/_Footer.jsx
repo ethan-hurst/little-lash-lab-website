@@ -1,16 +1,24 @@
 import React from 'react';
 
 export default class _Footer extends React.Component {
-    render() {
-        return (
-            <div className="Footer">
-                <footer class="py-5 bg-black">
-                    <div class="container">
-                        <p class="m-0 text-center text-white small">Copyright &copy; The Little Lash Lab 2019</p>
-                        <p class="m-0 text-center text-white small">Copyright &copy; Hursty By Design Ltd 2019</p>
-                    </div>
-                </footer>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="Footer">
+        <footer className="py-5 bg-black">
+          <div className="container">
+            <p className="m-0 text-center text-white small">
+Copyright &copy; The Little Lash Lab
+              {' '}
+              {new Date().getFullYear()}
+            </p>
+            <p className="m-0 text-center text-white small">
+Copyright &copy; Hursty By Design Ltd
+              {' '}
+              {new Date().getFullYear()}
+            </p>
+          </div>
+        </footer>
+      </div>
+    );
+  }
 }

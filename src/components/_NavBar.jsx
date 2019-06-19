@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 export default class _NavBar extends React.Component {
     constructor(props) {
@@ -7,8 +7,10 @@ export default class _NavBar extends React.Component {
 
         this.toggleNavbar = this.toggleNavbar.bind(this);
         this.closeNavbar = this.closeNavbar.bind(this);
+        this.toggle = this.toggle.bind(this);
         this.state = {
-            collapsed: true
+            collapsed: true,
+            dropdownOpen: false
         };
     }
 
@@ -17,6 +19,12 @@ export default class _NavBar extends React.Component {
             collapsed: !this.state.collapsed
         });
     }
+
+    toggle() {
+        this.setState(prevState => ({
+          dropdownOpen: !prevState.dropdownOpen
+        }));
+      }
 
     closeNavbar() {
         if (this.state.collapsed !== true) {
@@ -32,7 +40,16 @@ export default class _NavBar extends React.Component {
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="" navbar>
                             <NavItem>
-                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Pricing</NavLink>
+                                <Dropdown clasName="DropdownServices" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                                    <DropdownToggle caret>
+                                      Services/Pricing
+                                    </DropdownToggle>
+                                    <DropdownMenu>
+                                        <DropdownItem header>Services</DropdownItem>
+                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Lashes</DropdownItem>
+                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Brows</DropdownItem>
+                                    </DropdownMenu>
+                                </Dropdown>
                             </NavItem>
                             <NavItem>
                                 <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/contact">Contact</NavLink>

@@ -40,7 +40,7 @@ export default class _NavBar extends React.Component {
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="" navbar>
                             <NavItem>
-                                <Dropdown clasName="DropdownServices" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                                <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                                     <DropdownToggle caret>
                                       Services/Pricing
                                     </DropdownToggle>

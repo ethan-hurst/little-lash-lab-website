@@ -5,7 +5,8 @@ button.dropdown-toggle.btn.btn-secondary:active{
 }
 
 button.dropdown-toggle.btn.btn-secondary:focus{
-    box-shadow: none;
+    box-shadow: none !important;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 button.dropdown-toggle.btn.btn-secondary {

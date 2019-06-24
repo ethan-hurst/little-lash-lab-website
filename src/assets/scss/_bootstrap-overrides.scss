@@ -1,12 +1,11 @@
 button.dropdown-toggle.btn.btn-secondary:active{
     background-color: transparent;
     box-shadow: none;
-    outline: none;
 }
 
 button.dropdown-toggle.btn.btn-secondary:focus{
-    box-shadow: none;
-    outline: none;
+    box-shadow: none !important;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 button.dropdown-toggle.btn.btn-secondary {

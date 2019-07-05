@@ -52,6 +52,9 @@ export default class _NavBar extends React.Component {
                                 </Dropdown>
                             </NavItem>
                             <NavItem>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/book">Book</NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/contact">Contact</NavLink>
                             </NavItem>
                             <NavItem>

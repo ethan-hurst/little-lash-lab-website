@@ -10,4 +10,6 @@ export { default as _Post } from './_Post';
 export { default as _Router } from './_Router';
 export { default as _Lash } from './page/_Lashes';
 export { default as _Brows } from './page/_Brows';
+export { default as _Book } from './page/_Book';
+export { default as Booking } from './Booking';
 export { default as ContactIcons } from "./Contact-Icons";

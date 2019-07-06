@@ -29,6 +29,7 @@
             "args": "after-used",
             "ignoreRestSiblings": false
         }],
-        "max-len": "off"
+        "max-len": "off",
+        "linebreak-style": "off",
     }
 }

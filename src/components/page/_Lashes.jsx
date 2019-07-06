@@ -9,7 +9,7 @@ export default class _Lash extends React.Component {
                 <_NavBar />
                 <_Header 
                     headerProp="The Little Lash Lab"
-                    subheadingProp="View our Lash List below"
+                    subheadingProp="View our lash list below"
                 />
                 <LashList />
                 <_Footer />

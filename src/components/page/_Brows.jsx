@@ -9,7 +9,7 @@ export default class _Brows extends React.Component {
                 <_NavBar />
                 <_Header 
                     headerProp="The Little Lash Lab"
-                    subheadingProp="View our Brows List below"
+                    subheadingProp="View our brows list below"
                 />
                 <BrowsList />
                 <_Footer />

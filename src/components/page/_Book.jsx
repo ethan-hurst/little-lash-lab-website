@@ -1,7 +1,7 @@
 import React from 'react';
 import { _NavBar, _Footer, _Header, Booking } from '..';
 
-export default class _Brows extends React.Component { 
+export default class _Book extends React.Component { 
     render () { 
         return ( 
             <React.Fragment>
@@ -9,7 +9,7 @@ export default class _Brows extends React.Component {
                 <_NavBar />
                 <_Header 
                     headerProp="The Little Lash Lab"
-                    subheadingProp="View our Brows List below"
+                    subheadingProp="Book below"
                 />
                 <Booking />
                 <_Footer />

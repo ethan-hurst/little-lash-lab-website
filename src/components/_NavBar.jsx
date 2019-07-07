@@ -46,10 +46,13 @@ export default class _NavBar extends React.Component {
                                     </DropdownToggle>
                                     <DropdownMenu>
                                         <DropdownItem header>Services</DropdownItem>
-                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Lashes</DropdownItem>
-                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Brows</DropdownItem>
+                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/lashes">Lashes</DropdownItem>
+                                        <DropdownItem onClick={this.closeNavbar} className="nav-NavLink" href="/brows">Brows</DropdownItem>
                                     </DropdownMenu>
                                 </Dropdown>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/book">Book</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/contact">Contact</NavLink>

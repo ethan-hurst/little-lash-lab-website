@@ -1,6 +1,7 @@
 import React from 'react';
-import { _NavBar, _Footer, _Header, _Post, ContactIcons } from '../../components';
-import Img from '../../assets/images/alexander-andrews-633927-unsplash.jpg';
+import { _NavBar, _Footer, _Header, _Post, _PostNoImg, ContactIcons, MapContainer } from '../../components';
+// import Img from '../../assets/images/Misc/Capture.PNG'
+import Img1 from '../../assets/images/alexander-andrews-633927-unsplash.jpg';
 
 export default class _Contact extends React.Component {
     render() {
@@ -10,14 +11,19 @@ export default class _Contact extends React.Component {
                 <_NavBar />
                 <_Header
                     headerProp="The Little Lash Lab"
-                    subheadingProp="Contact us to Book!"
+                    subheadingProp="Contact us!"
                     buttonProp="Book Now!"
                 />
-                <_Post 
-                    header="Lets Talk!"
-                    paragraph="Simply Click on any of the icons below to Get in touch!"
-                    img={Img}
-                    alt="call for your lashing"
+                <_PostNoImg 
+                    header="Where to find us"
+                    paragraph="10 Stile Place, Pukekohe, NZ"
+                    script={<MapContainer/>}
+                />
+                <_Post
+                    header="How to speak to us"
+                    paragraph="Phone 027 624 8778, or click on any of the icons below:"
+                    img={Img1}
+                    alt="..."
                 />
                 <ContactIcons />
                 <_Footer />

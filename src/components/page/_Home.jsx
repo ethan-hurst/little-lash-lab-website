@@ -1,9 +1,8 @@
 import React from "react";
 import { _NavBar, _Header, _Post, _Footer } from "../";
 
-import Img1 from "../../assets/images/logo/Unsplash_pics/B & W Wedding Image.jpg";
-import Img2 from "../../assets/images/logo/Unsplash_pics/Img12.jpg";
-import Img3 from "../../assets/images/logo/Unsplash_pics/Img13.jpg";
+import Img1 from "../../assets/images/Misc/InFrame_1561436570338.jpg";
+import Img2 from "../../assets/images/Misc/IMG_20190705_135116.jpg";
 
 export default class _Home extends React.Component {
   render() {
@@ -23,12 +22,6 @@ export default class _Home extends React.Component {
           paragraph="Because chances are you will - snuggled up under your minky blanket, with the subtle yet deeply relaxing smell of scented candles and essential oils. You’ve already had your chocolate kiss that was waiting for you on your memory-foam pillow. Now with your eyes closed and chill-out music playing, prepare from some zzz’s while we transform your eyes."
           img={Img2}
           alt="lashing will be so relaxing you're going to sleep"
-        />
-        <_Post
-          header="For bookings"
-          paragraph="Call us on 027 624 8778 or send us a message on Facebook or Instagram."
-          img={Img3}
-          alt="contact us for your lashing today!"
         />
         <_Footer />
         {/* eslint-enable */}

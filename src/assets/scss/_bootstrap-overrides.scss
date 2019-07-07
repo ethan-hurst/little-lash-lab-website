@@ -1,9 +1,60 @@
-button.dropdown-toggle.btn.btn-secondary:active{
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+    .navbar-nav {
+        align-items: flex-end;
+    }
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    button.dropdown-toggle.btn.btn-secondary {
+        padding-bottom: 8px !important;
+    }
+
+}
+
+button.dropdown-toggle.btn.btn-secondary:active {
     background-color: transparent;
     box-shadow: none;
 }
 
-button.dropdown-toggle.btn.btn-secondary:focus{
+button.dropdown-toggle.btn.btn-secondary:focus {
     box-shadow: none !important;
     color: rgba(255, 255, 255, 0.5);
 }

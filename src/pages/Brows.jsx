@@ -1,12 +1,12 @@
 import React from 'react';
-import { _Price } from '../components';
+import { _Brows } from '../components';
 
-export default class Price extends React.Component { 
+export default class Brows extends React.Component { 
     render() { 
         return ( 
             <React.Fragment>
                 {/* eslint-disable */}
-                <_Price />
+                <_Brows />
                 {/* eslint-enable */}
             </React.Fragment>
         );

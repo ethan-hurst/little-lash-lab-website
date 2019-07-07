@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class PriceList extends React.Component {
+export default class LashList extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -128,54 +128,6 @@ export default class PriceList extends React.Component {
                     <li className="list-unstyled-item list-hours-item d-flex">
                       <span className="subheading">
                         <em>Book at least 48 hours before your lash lift appointment. If you choose not to book a patch test we require you to sign a waiver form.</em>
-                      </span>
-                    </li>
-                  </ul>
-                  <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                                            Henna Brows Initial Appointment
-                      <span className="ml-auto">$60</span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                                                1 hour
-                      </span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                        <em>Service includes brow shaping, henna tint and brow tweezing.</em>
-                      </span>
-                    </li>
-                  </ul>
-                  <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                                            Henna Brows Subsequent Appointments
-                      <span className="ml-auto">$40</span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                                                30 minutes
-                      </span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                        <em>Service includes brow shaping, henna tint and brow tweezing.</em>
-                      </span>
-                    </li>
-                  </ul>
-                  <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                                            Henna Brows Patch Test
-                      <span className="ml-auto">Free</span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                                                15 minutes
-                      </span>
-                    </li>
-                    <li className="list-unstyled-item list-hours-item d-flex">
-                      <span className="subheading">
-                        <em>Book at least 48 hours before your henna brows appointment. If you choose not to book a patch test we require you to sign a waiver form.</em>
                       </span>
                     </li>
                   </ul>

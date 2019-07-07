@@ -1,7 +1,7 @@
 import React from 'react';
-import { _NavBar, _Footer, _Header, PriceList } from '../../components';
+import { _NavBar, _Footer, _Header, BrowsList } from '../../components';
 
-export default class _Price extends React.Component { 
+export default class _Brows extends React.Component { 
     render () { 
         return ( 
             <React.Fragment>
@@ -9,9 +9,9 @@ export default class _Price extends React.Component {
                 <_NavBar />
                 <_Header 
                     headerProp="The Little Lash Lab"
-                    subheadingProp="View our Price List below"
+                    subheadingProp="View our brows list below"
                 />
-                <PriceList />
+                <BrowsList />
                 <_Footer />
                 {/* eslint-enable */}
             </React.Fragment>

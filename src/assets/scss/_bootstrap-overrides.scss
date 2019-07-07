@@ -1,26 +1,77 @@
-button.dropdown-toggle.btn.btn-secondary:active{
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+    .navbar-nav {
+        align-items: flex-end;
+    }
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    .mr-2.navbar-toggler {
+        left: 7%;
+        position: relative;
+    }
+
+    .navbar-collapse {
+        left: 6%;
+        position: relative;
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    button.dropdown-toggle.btn.btn-secondary {
+        padding-bottom: 8px !important;
+    }
+
+}
+
+button.dropdown-toggle.btn.btn-secondary:active {
     background-color: transparent;
-    border-color: transparent;
     box-shadow: none;
 }
 
-button.dropdown-toggle.btn.btn-secondary:focus{
+button.dropdown-toggle.btn.btn-secondary:focus {
     box-shadow: none !important;
     color: rgba(255, 255, 255, 0.5);
 }
 
 button.dropdown-toggle.btn.btn-secondary {
     background-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent;
     color: rgba(255, 255, 255, 0.5);
     box-shadow: none;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 4px;
+    border: 0px;
 }
 
 .hursty-component {

@@ -11,11 +11,6 @@ Copyright &copy; The Little Lash Lab
               {' '}
               {new Date().getFullYear()}
             </p>
-            <p className="m-0 text-center text-white small">
-Copyright &copy; Hursty By Design Ltd
-              {' '}
-              {new Date().getFullYear()}
-            </p>
           </div>
         </footer>
       </div>

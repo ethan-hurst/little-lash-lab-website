@@ -7,7 +7,7 @@ export default class _Footer extends React.Component {
         <footer className="py-5 bg-black">
           <div className="container">
             <p className="m-0 text-center text-white small">
-Copyright &copy; The Little Lash Lab
+              Copyright &copy; The Little Lash Lab
               {' '}
               {new Date().getFullYear()}
             </p>

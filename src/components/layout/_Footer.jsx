@@ -1,8 +1,11 @@
 import React from 'react';
+import InstagramFeed from '../InstagramFeed'
 
 export default class _Footer extends React.Component {
   render() {
     return (
+      <>
+      <InstagramFeed count="8" />
       <div className="Footer">
         <footer className="py-5 bg-black">
           <div className="container">
@@ -14,6 +17,7 @@ export default class _Footer extends React.Component {
           </div>
         </footer>
       </div>
+      </>
     );
   }
 }
